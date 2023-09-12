@@ -1,0 +1,4 @@
+site_name: mkdocs_skeleton
+
+theme:
+  name: material

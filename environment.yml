@@ -1,0 +1,8 @@
+name: mkdocs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - mkdocs-material
+  - mkdocs
+prefix: C:\Users\zabacka1\Anaconda3\envs\mkdocs
