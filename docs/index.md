@@ -19,6 +19,8 @@ theme:
 Run the following (from the directory containing mkdocs.yml file):
 > mkdocs gh-deploy --force
 
+NOTE: You will need to re-run this command (and push all changes) to remote repository before any changes you make to the docs will take effect. 
+
 
 ## Push Changes & Wait
 Push all your changes to the remote (main) repository. It make take a few minutes for your site to become active. 
