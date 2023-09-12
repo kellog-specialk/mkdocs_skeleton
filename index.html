@@ -57,7 +57,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#mkdocs_skeleton" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome to MkDocs
+              mkdocs_skeleton
             
           </span>
         </div>
@@ -188,12 +188,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Welcome to MkDocs
+          mkdocs_skeleton
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="." class="md-nav__link md-nav__link--active">
-        Welcome to MkDocs
+        mkdocs_skeleton
       </a>
       
         
@@ -210,6 +210,47 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#install-required-packages" class="md-nav__link">
+    Install Required Packages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-mkdocs-project-files" class="md-nav__link">
+    Create MKDocs Project Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish-site" class="md-nav__link">
+    Publish Site
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#push-changes-wait" class="md-nav__link">
+    Push Changes &amp; Wait
+  </a>
+  
+    <nav class="md-nav" aria-label="Push Changes & Wait">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mkdocs-further-references" class="md-nav__link">
+    MKDocs - Further References
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#commands" class="md-nav__link">
@@ -260,6 +301,47 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#install-required-packages" class="md-nav__link">
+    Install Required Packages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-mkdocs-project-files" class="md-nav__link">
+    Create MKDocs Project Files
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#publish-site" class="md-nav__link">
+    Publish Site
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#push-changes-wait" class="md-nav__link">
+    Push Changes &amp; Wait
+  </a>
+  
+    <nav class="md-nav" aria-label="Push Changes & Wait">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mkdocs-further-references" class="md-nav__link">
+    MKDocs - Further References
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#commands" class="md-nav__link">
     Commands
   </a>
@@ -288,7 +370,27 @@
                   
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
+<h1 id="mkdocs_skeleton">mkdocs_skeleton</h1>
+<p>This project is a skeleton base for a Github project that includes an mkdocs documentation site (hosted using Github Pages). </p>
+<p>To create this project, the following was performed: </p>
+<h2 id="install-required-packages">Install Required Packages</h2>
+<p>You can view the required packages from environment.yml</p>
+<h2 id="create-mkdocs-project-files">Create MKDocs Project Files</h2>
+<p>Activate your python environment (with necessary packages installed), then run the following in the from the project folder: </p>
+<blockquote>
+<p>mkdocs new .</p>
+</blockquote>
+<p>Then, inside the newly-created mkdocs.yml file in your project, add the following (at minimum):
+theme: 
+    name: material</p>
+<h2 id="publish-site">Publish Site</h2>
+<p>Run the following (from the directory containing mkdocs.yml file):</p>
+<blockquote>
+<p>mkdocs gh-deploy --force</p>
+</blockquote>
+<h2 id="push-changes-wait">Push Changes &amp; Wait</h2>
+<p>Push all your changes to the remote (main) repository. It make take a few minutes for your site to become active. </p>
+<h3 id="mkdocs-further-references">MKDocs - Further References</h3>
 <p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
 <h2 id="commands">Commands</h2>
 <ul>
